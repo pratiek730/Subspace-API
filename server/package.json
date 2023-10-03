@@ -1,10 +1,11 @@
 {
-  "name": "server",
+  "name": "Subspace API server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "monitor": "nodemon src/server.js"
+    "monitor": "nodemon src/server.js",
+    "start": "node src/server.js"
   },
   "keywords": [],
   "author": "",
